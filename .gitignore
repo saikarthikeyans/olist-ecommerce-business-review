@@ -1,0 +1,43 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python virtual environment & cache
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Datasets (do not commit large raw CSV files to Git)
+data/raw/*.csv
+*.csv
+
+# Generated artifacts & outputs
+reports/charts/*.png
+reports/output/*.pdf
+reports/output/*.json
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
